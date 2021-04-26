@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+}
+.block1{
+	width: 100px;
+	height: 100vh;
+	background-color: #454545;
+	transition: width 0.3s ease;
+}
+.block1:hover{
+	width: 300px;
+}
+.block2{
+	background-color: #353535;
+	width: 100px;
+	height: 100px;
+	transition: width 0.3s ease;
+	position: relative;
+}
+.block1:hover .block2{
+	width: 300px;
+}
+.block1:hover .icon{
+	transform: rotate(-180deg);
+}
+.block1:hover .text{
+	width: 200px;
+	opacity: 1;
+}
+.block3{
+	width: 100px;
+	height: 100px;
+	transition: width 0.3s ease;
+	margin-top: 10px;
+	position: relative;
+}
+.block3:hover{
+	width: 300px;
+}
+.text1{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	opacity: 0;
+}
+.block1:hover .text1{
+	left: 100px;
+	opacity: 1;
+}
+.icon1{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding: 10px;
+}
+.icon{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding: 10px;
+	transition: transform 0.5s ease;
+	position: absolute;
+}
+.img1{
+	width: 80px;
+	height: 80px;
+}
+.text{
+	width: 200px;
+	height: 100px;
+	float: left;
+	opacity: 0;
+	position: absolute;
+}
